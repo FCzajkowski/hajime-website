@@ -3,9 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hajime</title>
+    <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
-    
+    <header>
+        <p>🚀</p>
+        <nav>
+            <button>About</button>
+            <button>Download</button>
+            <button>Documentation</button>
+            <button>Contribute</button>
+        </nav>
+    </header>
+    <main>
+        <section id="hero_section">
+            <div class="grid_left">
+                <h1>Better Websites Build Easier</h1>
+                <p>
+                    Hajime is open-source's minimalistic<br>python backend framework
+                </p>
+                <code>
+                    $ pip install Hajime
+                </code>
+            </div>
+            <div>
+                <code>
+                    <span class="yellow">from</span> <span class="pink">Hajime</span> <span class="yellow">import</span> <span class="yellow">*</span><br><br>
+                    <span class="pink">app</span> <span>=</span> <span class="blue">Hajime</span><span class="yellow">()</span><br><br>
+                    <span class="orange">@app.route("/")</span><br>
+                    <span class="yellow">def</span> <span class="blue">main</span><span class="yellow">(</span><span class="pink">environ</span><span class="yellow">)</span><span class="pink">:</span><br>
+                    <span class="yellow" style="margin-left:30px;">return</span><span class="orange"> "Hello To Hajime"</span><br><br>
+                    <span class="pink">app</span><span class="blue">.launch</span><span class="yellow">()</span>
+                </code>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
 </body>
 </html>
