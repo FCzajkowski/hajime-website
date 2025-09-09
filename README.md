@@ -1,4 +1,4 @@
-# Hajime
+# Hajime Framework
 
 **Hajime** is a Python package designed to simplify and accelerate your web development workflow. This website provides documentation, guides, and resources to help you get started and make the most of Hajime.
 
